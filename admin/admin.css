@@ -1,0 +1,66 @@
+body{
+    font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background: #fff url(../img/overlay.png) repeat;
+}
+#cabecera{
+	/*background-color: #474040;*/
+	background-image: url(../img/backgroundAdmin.png);
+	color:#fff;
+	height: 160px;
+	border-bottom: 10px solid #131313;
+}
+#contenedores #contenedor-izquierdo h3{
+	color: #131313;
+}
+#escudo{
+	position: absolute;
+	left: 50px;
+	width: 35%;
+}
+#contenedor-izquierdo{
+	background-color: #eee;
+	color: #000;
+}
+#contenedor-izquierdo .opcion{
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-right: 0px;
+	cursor: pointer;
+}
+.active{
+	background-color: #131313;
+	color: #fff;
+}
+#contenedor-izquierdo .opcion:hover{
+	background-color: #131313;
+	color: #fff;
+}
+
+#contenedor-derecho{
+	padding-top: 50px;
+    background: #fff url(../img/overlay.png) repeat;
+}
+#contenedor-derecho h1{
+	font-size: 5rem;
+}
+#contenedor-derecho .datos{
+	font-size: 2rem;
+	margin-top: 30px;
+}
+.cuadro-datos{
+	height: 400px;
+	padding-top: 30px;
+}
+.cuadro-datos:hover{
+	background-color: #474040;
+	/*border: 2px solid #474040;*/
+	color: #fff;
+}
+a:link{
+    text-decoration: none;
+}
+
+#pie{
+	background-color: #474040;
+	color: #fff;
+}
